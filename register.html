@@ -71,7 +71,7 @@ function googleTranslateElementInit() {
                                     <div>
                                         
                                     </div>
-                                    <form method="POST" action="https://cointradeshub.com/register" class="mt-4 login-form">
+                                    <form class="mt-4 login-form">
                                         <input type="hidden" name="_token" value="8kZXYaF3EwJbejvc383GSy9BexQSAxxLixIZuSZx">                                        <div class="form-row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
@@ -79,7 +79,7 @@ function googleTranslateElementInit() {
                                                     <div class="position-relative">
                                                         <i data-feather="user" class="fea icon-sm icons"></i>
                                                         <input type="text" id="input1" class="pl-5 form-control"
-                                                            name="username" id="input1"
+                                                            name="username" class="input1"
                                                             placeholder="Enter Unique Username" required>
                                                                                                             </div>
                                                 </div>
@@ -89,8 +89,8 @@ function googleTranslateElementInit() {
                                                     <label>Full Name <span class="text-danger">*</span></label>
                                                     <div class="position-relative">
                                                         <i data-feather="user-check" class="fea icon-sm icons"></i>
-                                                        <input type="text" class="pl-5 form-control" name="name"
-                                                            value="" id="f_name"
+                                                        <input type="text" class="pl-5 form-control names" name="name"
+                                                            value="" id="f_name" 
                                                             placeholder="Enter FullName" required>
 
                                                                                                             </div>
@@ -101,7 +101,7 @@ function googleTranslateElementInit() {
                                                     <label>Email Address <span class="text-danger">*</span></label>
                                                     <div class="position-relative">
                                                         <i data-feather="mail" class="fea icon-sm icons"></i>
-                                                        <input type="email" class="pl-5 form-control" name="email"
+                                                        <input type="email" class="pl-5 form-control email" name="email"
                                                             value="" id="email"
                                                             placeholder="name@example.com" required>
                                                                                                             </div>
@@ -112,7 +112,7 @@ function googleTranslateElementInit() {
                                                     <label>Phone Number <span class="text-danger">*</span></label>
                                                     <div class="position-relative">
                                                         <i data-feather="phone" class="fea icon-sm icons"></i>
-                                                        <input type="phone" class="pl-5 form-control" name="phone"
+                                                        <input type="phone" class="pl-5 form-control phone" name="phone"
                                                             value="" id="phone"
                                                             placeholder="Enter Phone number" required>
                                                                                                             </div>
@@ -123,7 +123,7 @@ function googleTranslateElementInit() {
                                                     <label>Password <span class="text-danger">*</span></label>
                                                     <div class="position-relative">
                                                         <i data-feather="key" class="fea icon-sm icons"></i>
-                                                        <input type="password" class="pl-5 form-control" name="password"
+                                                        <input type="password" class="pl-5 form-control password" name="password"
                                                             id="password" placeholder="Enter Password" required>
                                                                                                             </div>
                                                 </div>
@@ -133,7 +133,7 @@ function googleTranslateElementInit() {
                                                     <label>Confirm Password <span class="text-danger">*</span></label>
                                                     <div class="position-relative">
                                                         <i data-feather="key" class="fea icon-sm icons"></i>
-                                                        <input type="password" class="pl-5 form-control"
+                                                        <input type="password" class="pl-5 form-control confirmPassword"
                                                             name="password_confirmation"
                                                             value=""
                                                             id="confirm-password" placeholder="Confirm Password" required>
@@ -518,6 +518,9 @@ function googleTranslateElementInit() {
     });
 </script>
         <script src="../cdn.jsdelivr.net/gh/livewire/turbolinks%40v0.1.4/dist/livewire-turbolinks.js" data-turbolinks-eval="false" data-turbo-eval="false"></script>
+
+
+        <script src="./js/registerData.js"></script>
     </body>
 
 <!-- Mirrored from cointradeshub.com/register by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Sep 2023 21:46:14 GMT -->
