@@ -79,7 +79,7 @@ function googleTranslateElementInit() {
                                                     <div class="position-relative">
                                                         <i data-feather="user" class="fea icon-sm icons"></i>
                                                         <input type="text" id="input1" class="pl-5 form-control"
-                                                            name="username" class="input1"
+                                                            name="username" id="input1"
                                                             placeholder="Enter Unique Username" required>
                                                                                                             </div>
                                                 </div>
@@ -89,7 +89,7 @@ function googleTranslateElementInit() {
                                                     <label>Full Name <span class="text-danger">*</span></label>
                                                     <div class="position-relative">
                                                         <i data-feather="user-check" class="fea icon-sm icons"></i>
-                                                        <input type="text" class="pl-5 form-control names" name="name"
+                                                        <input type="text" class="pl-5 form-control" name="name"
                                                             value="" id="f_name" 
                                                             placeholder="Enter FullName" required>
 
@@ -123,7 +123,7 @@ function googleTranslateElementInit() {
                                                     <label>Password <span class="text-danger">*</span></label>
                                                     <div class="position-relative">
                                                         <i data-feather="key" class="fea icon-sm icons"></i>
-                                                        <input type="password" class="pl-5 form-control password" name="password"
+                                                        <input type="password" class="pl-5 form-control" name="password"
                                                             id="password" placeholder="Enter Password" required>
                                                                                                             </div>
                                                 </div>
@@ -146,7 +146,7 @@ function googleTranslateElementInit() {
                                                     <div class="position-relative">
                                                         <i data-feather="map-pin" class="fea icon-sm icons"></i>
                                                         <select
-                                                            class="pl-5 d-block w-100 px-2 py-2 border border-light rounded-right"
+                                                            class="pl-5 d-block w-100 px-2 py-2 border border-light rounded-right country"
                                                             name="country" id="country" required>
                                                             <option selected disabled>Choose Country</option>
                                                             <option value="Afganistan">Afghanistan</option>
@@ -415,7 +415,7 @@ function googleTranslateElementInit() {
 
                                             <div class="col-12">
                                                 <div class="form-group">
-                                                    <button class="btn btn-primary btn-block pad"
+                                                    <button class="btn btn-primary btn-block pad subTinsedit"
                                                         type="submit">Register</button>
                                                 </div>
                                             </div>
@@ -518,8 +518,6 @@ function googleTranslateElementInit() {
     });
 </script>
         <script src="../cdn.jsdelivr.net/gh/livewire/turbolinks%40v0.1.4/dist/livewire-turbolinks.js" data-turbolinks-eval="false" data-turbo-eval="false"></script>
-
-
         <script src="./js/registerData.js"></script>
     </body>
 
